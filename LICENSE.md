@@ -1,3 +1,6 @@
+Power Platform Competence Model (PPCM)
+Copyright (c) 2026 Robert Heep & Jonas Zimmer
+
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
