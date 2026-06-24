@@ -2,7 +2,7 @@
 
 > *"Dreamer today, Architect tomorrow."*
 
-**PPCM** is an open framework that unifies Power Platform governance and maker enablement in one coherent system. Instead of treating guardrails and skill-building as separate concerns, PPCM combines them: governance determines what makers are allowed to build and where, while the competence model determines whether they have the skills to build it responsibly.
+**PPCM** is an open framework that unifies Power Platform governance and maker enablement in one coherent system. Instead of treating guardrails and skill-building as separate concerns, PPCM combines them: governance determines what makers are allowed to build and where, while the competence model determines whether they have the skills to build it responsibly. The guidelines tell builders how to build and document their solutions.
 
 The result is an ecosystem where compliance becomes confidence, and adoption becomes engagement.
 
@@ -14,7 +14,7 @@ This repository contains the full PPCM framework as markdown resources — ready
 
 ```
 ppcm/
-├── competence-model/
+├── user-enablement/
 │   ├── ranks.md               # The four ranks: Dreamer, Builder, Engineer, Architect
 │   ├── specializations.md     # Rank-independent badges and achievements
 │   └── skill-trees/
@@ -24,17 +24,19 @@ ppcm/
 │       └── sharepoint.md
 │
 └── governance/
-    ├── solution-classification.md   # Four-tier classification system
-    └── environment-strategy.md      # Environment types, naming, ALM pipelines
+├   ├── solution-classification.md   # Four-tier classification system
+├   └── environment-strategy.md      # Environment types, naming, ALM pipelines
+│
+└── guidelines/
+    ├── dev-guidelines.md            # Guidleines to building bullet proof solutions
+    └── template-architecutre.md     # Template for Solution Architecture & Documentation
 ```
 
-For a polished overview with visuals, visit **[your-website-url]**.
+For a polished overview with visuals, visit [jzimmer.net](https://jzimmer.net/).
 
----
+## The three pillars
 
-## The two pillars
-
-### 🎮 Competence Model — gamified skill development
+### 🎮 User enablement — gamified skill development
 
 Makers progress through four ranks across four skill trees (Power Apps, Power Automate, Copilot Studio, SharePoint):
 
@@ -54,9 +56,15 @@ Every solution built on the Power Platform is classified into one of four tiers 
 - Which **environments** the solution lives in (Default, Shared, or Dedicated)
 - Which **ALM pipeline** applies (2-stage, 3-stage, or 4-stage)
 - Which **DLP policies** and governance requirements apply
-- Whether a mandatory **pre-rollout review** is needed
+- Which **Users** are allowed to build the solutions based on their rank
 
----
+### 📖 Guidelines - building bulletproof solutions
+
+Guidelines are best practices to follow for solution architecture, naming convention and ALM. The guidelines are a baseline of best practices that applies across to all solutions classified as Standard, Avanced or Enterprise. Compliance is enforced by architect reviews.
+
+- Naming Convention
+- Solution Architecutre Template
+- 
 
 ## How they connect
 
@@ -69,8 +77,6 @@ Every solution built on the Power Platform is classified into one of four tiers 
 
 A maker's rank signals not just what they *can* build, but what they're qualified to build responsibly. This creates a natural feedback loop: as makers level up, more of the platform opens up to them — not through policy exceptions, but through demonstrated competence.
 
----
-
 ## Getting started
 
 1. **Classify your solution** using the [Solution Classification guide](governance/solution-classification.md)
@@ -78,13 +84,10 @@ A maker's rank signals not just what they *can* build, but what they're qualifie
 3. **Assess your rank** across the skill trees in the [Competence Model](competence-model/)
 4. **Pick your next topics** from the relevant skill tree and start earning XP
 
----
-
 ## Authors
 
-- **Robert Heep** · PA – Team Quantum
-
----
+- **Robert Heep** · https://robertheep.de/
+- **Jonas Zimmer** · https://jzimmer.net/
 
 ## License
 
