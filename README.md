@@ -15,7 +15,7 @@ This repository contains the full PPCM framework as markdown resources — ready
 ```
 ppcm/
 ├── user-enablement/
-│   ├── ranks.md               # The four ranks: Dreamer, Builder, Engineer, Architect
+│   ├── ranks.md               # The five ranks: Dreamer, Explorer, Builder, Engineer, Architect
 │   ├── specializations.md     # Rank-independent badges and achievements
 │   └── skill-trees/
 │       ├── power-apps.md
@@ -25,7 +25,7 @@ ppcm/
 │
 ├── governance/
 │   ├── solution-classification.md   # Four-tier classification system
-│   └── environment-strategy.md      # Environment types, naming, ALM pipelines
+│   └── environment-setup.md          # Environment types, naming, ALM pipelines
 │
 └── guidelines/
     ├── dev-guidelines.md            # Guidleines to building bullet proof solutions
@@ -38,12 +38,13 @@ For a polished overview with visuals, visit [jzimmer.net](https://jzimmer.net/).
 
 ### 🎮 User enablement — gamified skill development
 
-Makers progress through four ranks across four skill trees (Power Apps, Power Automate, Copilot Studio, SharePoint):
+Makers progress through five ranks across four skill trees (Power Apps, Power Automate, Copilot Studio, SharePoint):
 
 | Rank | XP Threshold | Focus |
 |---|---|---|
 | **Dreamer** | 0 XP | Contribute ideas, explore the platform |
-| **Builder** | 300 XP | Build simple apps and flows |
+| **Explorer** | 300 XP | Personal productivity solutions in the default environment |
+| **Builder** | 600 XP | Build simple apps and flows independently |
 | **Engineer** | 1,200 XP | Structured, scalable solutions with ALM |
 | **Architect** | 3,000 XP | Governance, standards, and target architecture |
 
@@ -70,17 +71,37 @@ Guidelines are best practices to follow for solution architecture, naming conven
 
 | Governance Tier | Minimum Maker Rank |
 |---|---|
-| Basic | Dreamer |
-| Standard | Builder |
-| Advanced | Engineer |
-| Enterprise | Architect |
+| Tier 1 — Personal | Explorer |
+| Tier 2 — Standard | Builder |
+| Tier 3 — Business | Engineer |
+| Tier 4 — Enterprise | Architect |
 
 A maker's rank signals not just what they *can* build, but what they're qualified to build responsibly. This creates a natural feedback loop: as makers level up, more of the platform opens up to them — not through policy exceptions, but through demonstrated competence.
+
+## How to apply the model
+
+### 1. Onboard your first makers
+
+Start with a small cohort — typically the CoE team or a group of identified power users. Every new maker enters at Dreamer (0 XP) regardless of prior experience. Run the Ideation Onboarding to orient them on the platform and the model. Those who want to build advance voluntarily by completing the Explorer onboarding and hitting 300 XP through submitted and implemented ideas.
+
+### 2. Classify solutions before building
+
+Before any maker writes a single formula or flow, the solution must be classified using the [Solution Classification guide](governance/solution-classification.md). Classification determines the governance tier (Personal → Standard → Business → Enterprise), which in turn determines which environments the solution lives in, which ALM pipeline applies, and which rank a maker must hold before they're authorised to build it. This prevents ungoverned sprawl by design rather than by retrospective audit.
+
+### 3. Assign ranks through demonstrated competence
+
+Rank advancement is not automatic. Each promotion requires three things: hitting the XP threshold, completing the rank-specific onboarding programme, and — from Builder onwards — having a qualifying deliverable reviewed and accepted by an Engineer or Architect. The CoE owns the review process and maintains the record of each maker's current rank. Rank assignments should be visible to the whole maker community, both to signal accountability and to create visible role models.
+
+### 4. Run the system through the CoE
+
+The Center of Excellence is the operational backbone of PPCM. Its responsibilities include: maintaining the DLP policies and environment strategy, conducting pre-rollout reviews for Standard, Business, and Enterprise solutions, approving promotion deliverables, publishing and updating the skill trees and specialization badges, and monitoring the health of the maker community. Without an active CoE, the model exists only on paper. Plan to dedicate at least one Architect-level resource to CoE governance from day one.
+
+---
 
 ## Getting started
 
 1. **Classify your solution** using the [Solution Classification guide](governance/solution-classification.md)
-2. **Determine your environment setup** using the [Environment Strategy guide](governance/environment-strategy.md)
+2. **Determine your environment setup** using the [Environment Strategy guide](governance/environment-setup.md)
 3. **Assess your rank** across the skill trees in the [Competence Model](competence-model/)
 4. **Pick your next topics** from the relevant skill tree and start earning XP
 
