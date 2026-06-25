@@ -2,7 +2,7 @@
 
 ## Overview
 
-Makers progress through four ranks. Each rank determines which solution tiers a maker is permitted to build and whether they carry review authority. Progression requires meeting the XP threshold, completing the rank onboarding programme, and fulfilling the mandatory modules for that rank. XP alone is not sufficient to advance.
+Makers progress through five ranks. Each rank determines which solution tiers a maker is permitted to build and whether they carry review authority. Progression requires meeting the XP threshold, completing the rank onboarding programme, and fulfilling the mandatory modules for that rank. XP alone is not sufficient to advance.
 
 ---
 
@@ -25,14 +25,38 @@ Dreamers are not permitted to build solutions. Their role is ideation and explor
 ### Review authority
 None.
 
-### Promotion to Builder
-Promotion is voluntary. The Dreamer decides whether to pursue the Builder rank. To be eligible, the Dreamer must have reached 300 XP through submitted ideas and implemented ideas, and must complete the Builder onboarding programme.
+### Promotion to Explorer
+Promotion is voluntary. The Dreamer decides whether to pursue the Explorer rank. To be eligible, the Dreamer must have reached 300 XP through submitted ideas and implemented ideas, and must complete the Explorer onboarding programme.
 
 ---
 
-## Rank 2 — Builder
+## Rank 2 — Explorer
 
 **XP threshold:** 300 XP
+
+### What Explorers do
+Explorers build personal productivity solutions using Power Automate and Agent Builder in the default environment. They are not permitted to build in Power Apps or Copilot Studio. Explorers apply basic naming conventions to everything they create.
+
+### Onboarding programme
+Explorer Onboarding: Naming Conventions and Maker Fundamentals.
+
+### Mandatory modules
+- Naming Conventions
+
+### Solution building permissions
+Explorers are permitted to build **Tier 1 — Personal** solutions for personal productivity only, using Power Automate and Agent Builder. Power Apps and Copilot Studio are not permitted. All work is confined to the default environment.
+
+### Review authority
+None.
+
+### Promotion to Builder
+To advance to Builder, an Explorer must reach 600 XP and complete the Builder onboarding programme.
+
+---
+
+## Rank 3 — Builder
+
+**XP threshold:** 600 XP
 
 ### What Builders do
 Builders independently design and deliver simple solutions — primarily Canvas Apps and Cloud Flows. They apply platform guidelines and documentation standards from the outset and are responsible for the quality and maintainability of what they ship.
@@ -41,10 +65,13 @@ Builders independently design and deliver simple solutions — primarily Canvas 
 Builder Onboarding: Low-Code Fundamentals and Maker Setup.
 
 ### Mandatory modules
+- Solutions
+- Environment variables
+- Connection references
 - Guidelines and Documentation
 
 ### Solution building permissions
-Builders are permitted to build **Tier 1 — Basic** solutions.
+Builders are permitted to build **Tier 1 — Personal** and **Tier 2 — Standard** solutions.
 
 ### Review authority
 None.
@@ -54,7 +81,7 @@ To advance to Engineer, a Builder must reach 1 200 XP and ship a solution that d
 
 ---
 
-## Rank 3 — Engineer
+## Rank 4 — Engineer
 
 **XP threshold:** 1 200 XP
 
@@ -65,25 +92,24 @@ Engineers build structured, scalable solutions following Application Lifecycle M
 Engineer Bootcamp: ALM and Structured Development.
 
 ### Mandatory modules
-- Solutions
-- Environment variables
-- Connection references
-- Child flows
-- Licensing and multiplexing
-- Guidelines and Documentation
+
+- Child & Helper flows
+- Licensing, multiplexing & capacity management
+- Reviewing Solutions
 
 ### Solution building permissions
-Engineers are permitted to build **Tier 1 — Basic** through **Tier 3 — Advanced** solutions, including both the shared and dedicated environment paths.
+Engineers are permitted to build **Tier 1 — Personal** through **Tier 3 — Business** solutions, including both the shared and dedicated environment paths.
 
 ### Review authority
-None. Solutions requiring a mandatory pre-rollout review (Advanced solutions handling sensitive data or AI credits) must be reviewed by an Architect.
+Engineers are the review authority for the following solution tiers:
+- Mandatory pre-rollout reviews for Standard (Tier 2) solutions
 
 ### Promotion to Architect
 To advance to Architect, an Engineer must reach 3 000 XP and develop a solution architecture for a **Tier 4 — Enterprise** solution. The architecture must be reviewed and accepted before promotion is granted. Completion of the Architect onboarding programme is required.
 
 ---
 
-## Rank 4 — Architect
+## Rank 5 — Architect
 
 **XP threshold:** 3 000 XP
 
@@ -102,8 +128,8 @@ Architect Track: Governance and Architecture Certification.
 Architects are permitted to build solutions of **all tiers** — Tier 1 through Tier 4.
 
 ### Review authority
-Architects are the review authority for all solution tiers. This includes:
-- Mandatory pre-rollout reviews for Advanced (Tier 3) and Enterprise (Tier 4) solutions handling sensitive data or AI credits
+Architects are the review authority for the following solution tiers:
+- Mandatory pre-rollout reviews for Business (Tier 3) and Enterprise (Tier 4) solutions
 - Review and acceptance of Engineer-to-Architect promotion deliverables
 - Review and acceptance of Builder-to-Engineer promotion deliverables
 
