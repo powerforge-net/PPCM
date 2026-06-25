@@ -29,30 +29,30 @@ Every solution is assigned a **short abbreviation** (e.g., `CMS` for Contract Ma
 
 ### Component Naming Patterns
 
-| Component | Pattern | Example |
-|---|---|---|
-| **Solution** | `[ABC] Solution Name` | `[CMS] Contract Management` |
-| **App** | `[ABC] App Name` | `[CMS] New Contract` |
-| **Flow (parent)** | `[ABC] Process Name` | `[CMS] Approval` |
-| **Flow (child)** | `[ABC] Process Name - [CHILD]` | `[CMS] Approval [CHILD]` |
-| **Environment Variable** | `env{Type}ABCDescription` | `envDsCMSContracts` |
-| **Connection Reference** | `crABCConnector` | `crCMSOutlook` |
-| **SharePoint List / Library** | `abcDescription` (camelCase) | `cmsPermissions` |
-| **SharePoint Column** | `abcColumnName` (camelCase) | `cmsContractOwner` |
+| Component                     | Pattern                        | Example                              |
+| ----------------------------- | ------------------------------ | ------------------------------------ |
+| **Solution**                  | `[ABC] Solution Name`          | `[CMS] Contract Management`          |
+| **App**                       | `[ABC] App Name`               | `[CMS] New Contract`                 |
+| **Flow (parent)**             | `[ABC] Process Name`           | `[CMS] Approval`                     |
+| **Flow (child)**              | `[ABC] Process Name - [CHILD]` | `[CMS] Approval [CHILD]`             |
+| **Environment Variable**      | `env{Type}ABCDescription`      | `envDsCMSContracts`                  |
+| **Connection Reference**      | `crABCConnector`               | `crCMSOutlook`                       |
+| **SharePoint List / Library** | `abcDescription` (camelCase)   | `cmsPermissions`                     |
+| **SharePoint Column**         | `abcColumnName` (camelCase)    | `cmsContractOwner`                   |
 | **Custom Connector Solution** | `[ABC] – Solution Name – [CC]` | `[CMS] – Contract Management – [CC]` |
 
 ### Variable Naming (Apps & Flows)
 
 Variables use a type prefix in camelCase:
 
-| Type | Prefix | Example |
-|---|---|---|
-| String | `str` | `strUserDisplayName` |
-| Array / Table | `arr` | `arrSelectedContracts` |
-| Collection | `col` | `colSelectedRecords` |
-| Boolean | `boo` | `booIsApproved` |
-| Integer / Number | `int` / `num` | `intPageSize` |
-| Record / Object | `obj` | `objCurrentItem` |
+| Type             | Prefix        | Example                |
+| ---------------- | ------------- | ---------------------- |
+| String           | `str`         | `strUserDisplayName`   |
+| Array / Table    | `arr`         | `arrSelectedContracts` |
+| Collection       | `col`         | `colSelectedRecords`   |
+| Boolean          | `boo`         | `booIsApproved`        |
+| Integer / Number | `int` / `num` | `intPageSize`          |
+| Record / Object  | `obj`         | `objCurrentItem`       |
 
 ### Flow Action Names
 
