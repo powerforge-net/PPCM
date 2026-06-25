@@ -23,9 +23,9 @@ ppcm/
 │       ├── copilot-studio.md
 │       └── sharepoint.md
 │
-└── governance/
-├   ├── solution-classification.md   # Four-tier classification system
-├   └── environment-strategy.md      # Environment types, naming, ALM pipelines
+├── governance/
+│   ├── solution-classification.md   # Four-tier classification system
+│   └── environment-strategy.md      # Environment types, naming, ALM pipelines
 │
 └── guidelines/
     ├── dev-guidelines.md            # Guidleines to building bullet proof solutions
